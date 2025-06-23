@@ -89,9 +89,3 @@ with col3:
     st.markdown("### 자격사항")
     st.markdown('<div class="detail-content">- 지게차운전기능사<br>- 전자기기기능사<br>- 정보처리기능사<br>- 산업안전산업기사/기사</div>', unsafe_allow_html=True)
 
-with col4:
- import os
-
-img_path = os.path.abspath(os.path.join("data", "profile_photo.png"))
-st.image(img_path, caption="개인 사진", width=350)
-
