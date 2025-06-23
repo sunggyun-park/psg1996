@@ -57,7 +57,7 @@ col1, col2 = st.columns([1, 1])
 with col1:
  import os
 
-img_path = os.path.abspath(os.path.join("streamlit_python", "성균.png"))
+img_path = os.path.abspath(os.path.join("성균.png"))
 st.image(img_path, caption="개인 사진", width=350)
 
     
@@ -92,5 +92,5 @@ with col3:
 with col1:
  import os
 
-img_path = os.path.abspath(os.path.join("streamlit_python", "성균.png"))
+img_path = os.path.abspath(os.path.join("성균.png"))
 st.image(img_path, caption="개인 사진", width=350)
