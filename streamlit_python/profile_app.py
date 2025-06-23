@@ -54,7 +54,11 @@ st.markdown("<h3 style='text-align: right; color: black;'>No Pains, No Gains.</h
 # 사진과 개인정보를 같은 컬럼 구조로 배치
 col1, col2 = st.columns([1, 1])
 
+with col1:
+ import os
 
+img_path = os.path.abspath(os.path.join("data", "성균.png"))
+st.image(img_path, caption="개인 사진", width=350)
 
     
 with col2:
@@ -85,3 +89,8 @@ with col3:
     st.markdown("### 자격사항")
     st.markdown('<div class="detail-content">- 지게차운전기능사<br>- 전자기기기능사<br>- 정보처리기능사<br>- 산업안전산업기사/기사</div>', unsafe_allow_html=True)
 
+with col1:
+ import os
+
+img_path = os.path.abspath(os.path.join("data", "성균.png"))
+st.image(img_path, caption="개인 사진", width=350)
