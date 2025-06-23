@@ -54,11 +54,7 @@ st.markdown("<h3 style='text-align: right; color: black;'>No Pains, No Gains.</h
 # 사진과 개인정보를 같은 컬럼 구조로 배치
 col1, col2 = st.columns([1, 1])
 
-with col1:
- import os
 
-img_path = os.path.abspath(os.path.join("data", "profile_photo.png"))
-st.image(img_path, caption="개인 사진", width=350)
 
     
 with col2:
