@@ -55,7 +55,7 @@ st.markdown("<h3 style='text-align: right; color: black;'>No Pains, No Gains.</h
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.image("data/profile_photo.jpg", caption="개인 사진", width=350) #width를 조정 하면 이미지 비율에 따라서 높이가 자동으로 조절됩니다.
+    st.image("data/profile_photo.png", caption="개인 사진", width=350) #width를 조정 하면 이미지 비율에 따라서 높이가 자동으로 조절됩니다.
     
 with col2:
     st.markdown("<br>", unsafe_allow_html=True)
@@ -86,4 +86,4 @@ with col3:
     st.markdown('<div class="detail-content">- 지게차운전기능사<br>- 전자기기기능사<br>- 정보처리기능사<br>- 산업안전산업기사/기사</div>', unsafe_allow_html=True)
 
 with col4:
-    st.image("data/profile_photo.jpg", caption="개인 사진", width=350) #width를 조정 하면 이미지 비율에 따라서 높이가 자동으로 조절됩니다.
+    st.image("data/profile_photo.png", caption="개인 사진", width=350) #width를 조정 하면 이미지 비율에 따라서 높이가 자동으로 조절됩니다.
